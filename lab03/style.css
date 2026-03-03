@@ -1,0 +1,14 @@
+body { 
+    background-color:beige;
+    color:brown
+}
+
+h1 {
+    color:darkgreen;
+    margin-left: 32px;
+}
+
+p { 
+    font-size: 16px;
+    line-height: 1.5;
+}
