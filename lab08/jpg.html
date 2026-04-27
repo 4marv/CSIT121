@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JPG Image Example</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">Home</a>
+        <a href="gif.html">GIF</a>
+        <a href="jpg.html">JPG</a>
+        <a href="png.html">PNG</a>
+    </div>
+
+    <div id="main">
+
+        <header>
+            <h1>JPG Image Format</h1>
+            <span class="openbtn" onclick="openNav()">☰ Menu</span>
+        </header>
+
+        <main>
+
+            <section>
+                <h2>Matcha Latte!</h2>
+
+                <figure>
+                    <img src="images/matcha.jpg" alt="image of Matcha Latte">
+                </figure>
+
+            </section>
+
+            <section>
+                <h2>Description</h2>
+                <p>
+                    The image displays a iced Matcha Latte on top of a coaster on a countertop in the sunlight.
+                </p>
+            </section>
+
+            <section>
+                <h2>Image File Type Information</h2>
+                <p>
+                    JPeg file types are usually used for photographs as .jpg files can easily be compressed into small
+                    files while retaining high quality colors and pixels.
+                </p>
+            </section>
+
+            <section>
+                <h2>Why I Chose This Image</h2>
+                <p>
+                    I chose this specific image as I was craving something sweet and cold, and the first thing I thought
+                    of was a iced matcha latte.
+                </p>
+            </section>
+
+            <section>
+                <h2>Source</h2>
+                <p>
+                    Image source:
+                    <a href="https://worthyselfcare.com/6-crazy-wellness-trends-we-thought-were-april-fools-jokes/"
+                        target="_blank">
+                        Worthy Self Care
+                    </a>
+                </p>
+            </section>
+
+        </main>
+
+        <footer>
+            <p>CSIT121 Lab 04</p>
+        </footer>
+
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+        }
+    </script>
+
+</body>
+
+</html>
