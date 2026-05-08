@@ -1,0 +1,30 @@
+<superhero>
+    <name>Seol Lee</name>
+    <alias>Luna Snow</alias>
+    <age>24</age>
+    <gender>Female</gender>
+    <nationality>Korean</nationality>
+    <occuptation>K-Pop Idol / Superhero</occuptation>
+    <origin>Gained ice powers after being exposed to experimental energy protecting fans during an attack.</origin>
+<powers>
+    <power1>Ice Manipulation</power1>
+    <power2>Cryokinesis</power2>
+    <power3>Healing Ice Energy</power3>
+    <power4>Ice Blast Projection</power4>
+    <power5>Temperature Control</power5>
+</powers>
+<weaknesses>
+    <weakness1>Extreme heat weakens her ice powers</weakness1>
+    <weakness2>Overusing powers causes exhaustion</weakness2>
+</weaknesses>
+<relationships>
+<enemies>
+    <enemy1>A.I.M.</enemy1>
+    <enemy2>Hydra</enemy2>
+</enemies>
+<friends>
+    <friend1>White Fox</friend1>
+    <friend2>Crescent</friend2>
+</friends>
+</relationships>
+</superhero>
